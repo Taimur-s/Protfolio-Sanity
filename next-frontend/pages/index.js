@@ -9,9 +9,9 @@ import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link'
 import NavBar from '../components/NavBar';
 
-export default function Home({ blogs, profile }) {
+export default function Home({ blogs, profile}) {
   const client = createClient({
-    projectId: 'i6d1pi85',
+    projectId: "i6d1pi85",
     dataset: "production",
     useCdn: false
   });
@@ -19,13 +19,13 @@ export default function Home({ blogs, profile }) {
   // const profile = {
   //   title: "WorkWithtaimur",
   //   name: "taimur",
-  //   image: "https://insanebiography.com/wp-content/uploads/taimurwebdev_108099807_133124151765153_6863548870509034899_n-min-edited.jpg",
-  //   fbLink: "https://facebook.com/taimurwebdev",
-  //   twitterLink: "https://twitter.com/taimurwebdev",
-  //   instagramLink: "https://instagram.com/taimurwebdev",
+  //   image: "https://insanebiography.com/wp-content/uploads/codewithtaimur_108099807_133124151765153_6863548870509034899_n-min-edited.jpg",
+  //   fbLink: "https://facebook.com/codewithtaimur",
+  //   twitterLink: "https://twitter.com/codewithtaimur",
+  //   instagramLink: "https://instagram.com/codewithtaimur",
   // }
-
-
+  
+  
   return (
     <><>
       <Script src="/assets/js/main.js"></Script>
@@ -37,6 +37,7 @@ export default function Home({ blogs, profile }) {
         <meta
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
           name="viewport" />
+
         <title>{profile.title} - Developer | Coder | Software Geek</title>
 
         <meta property="og:title" content="Homepage | Atom Template" />
@@ -99,7 +100,7 @@ export default function Home({ blogs, profile }) {
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 
-      </Head>
+      </Head> 
       <NavBar profile={profile} />
       {/* <div className="w-full z-50 top-0 py-3 sm:py-5  absolute ">
         <div className="container flex items-center justify-between">
@@ -110,46 +111,71 @@ export default function Home({ blogs, profile }) {
           </div>
           <div className="hidden lg:block">
             <ul className="flex items-center">
+
               <li className="group pl-6">
+
                 <a href='#about'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span></a>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
                 <span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Services</span>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
               <a href='#portfolio'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span></a>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
               <a href='#clients'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span></a>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
               <a href='#work'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span></a>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
               <a href='#statistics'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Statistics</span></a>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
               <a href='#blog'><span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Blog</span></a>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
               <li className="group pl-6">
+
                 <span
                   className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
+
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
+
             </ul>
           </div>
           <div className="block lg:hidden">
@@ -160,7 +186,7 @@ export default function Home({ blogs, profile }) {
         </div>
       </div> */}
       <div
-        className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" />
+        className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" /> 
       <div className="hidden absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
         <button className="absolute top-0 right-0 mt-4 mr-4">
           <img src="/assets/img/icon-close.svg" className="h-10 w-auto" alt="" />
@@ -266,9 +292,9 @@ export default function Home({ blogs, profile }) {
                   </a>
                 </div>
               </div>
-              <Link href={'/blogs'}><div className="buttons text-center md:text-left">
-                <button className='bg-purple-600 text-white border-2 px-4 py-1 my-4 rounded-2xl'>All Blogs</button>
-              </div></Link>
+                <Link href={'/blogs'}><div className="buttons text-center md:text-left">
+                  <button className='bg-purple-600 text-white border-2 px-4 py-1 my-4 rounded-2xl'>All Blogs</button>
+                </div></Link>
             </div>
           </div>
         </div>
@@ -329,7 +355,7 @@ export default function Home({ blogs, profile }) {
                 <h3 className="font-body text-3xl font-bold text-primary">85%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "85%" }}></div>
+                <div className="h-3 rounded-full bg-primary" style={{"width": "85%"}}></div>
               </div>
             </div>
             <div className="pt-6">
@@ -349,7 +375,7 @@ export default function Home({ blogs, profile }) {
                 <h3 className="font-body text-3xl font-bold text-primary">98%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{ "width": "98%" }}></div>
+                <div className="h-3 rounded-full bg-primary" style={{"width": "98%"}}></div>
               </div>
             </div>
             <div className="pt-6">
@@ -653,7 +679,7 @@ export default function Home({ blogs, profile }) {
       </div>
 
       <div className="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
-        style={{ "backgroundImage": "url(/assets/img/experience-figure.png)" }} id="statistics">
+        style={{"backgroundImage": "url(/assets/img/experience-figure.png)"}} id="statistics">
         <div className="container">
           <div className="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
             <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
@@ -730,22 +756,22 @@ export default function Home({ blogs, profile }) {
           </h4>
           <div className="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
 
-            {blogs.map((item) => {
+            {blogs.map((item) => { 
               return <Link key={item.slug.current} href={"/blog/" + item.slug.current} className="shadow">
-                <div><div style={{ "backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})` }}
-                  className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                  <span
-                    className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                  <span
-                    className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base cursor-pointer">Read
-                    More</span>
-                </div>
-                  <div className="bg-white py-6 px-5 xl:py-8">
-                    <span className="block font-body text-lg font-semibold text-black"> {item.title}</span>
-                    <span className="block pt-2 font-body text-grey-20">{item.metadesc}</span>
-                  </div></div>
-              </Link>
-            })}
+              <div><div style={{"backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})`}}
+                className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                <span
+                  className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                <span
+                  className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base cursor-pointer">Read
+                  More</span>
+              </div>
+              <div className="bg-white py-6 px-5 xl:py-8">
+                <span className="block font-body text-lg font-semibold text-black"> {item.title}</span>
+                <span className="block pt-2 font-body text-grey-20">{item.metadesc}</span>
+              </div></div>
+            </Link>
+             })}
             {/* <a href="/post" className="shadow">
               <div style={{"backgroundImage": "url(/assets/img/post-02.png)"}}
                 className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
@@ -853,10 +879,10 @@ export default function Home({ blogs, profile }) {
       </div>
 
       <div className="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-        style={{ "backgroundImage": "url(/assets/img/map.png)" }}></div>
+        style={{"backgroundImage": "url(/assets/img/map.png)"}}></div>
 
       <div className="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
-        style={{ "backgroundImage": "url(/assets/img/bg-cta.jpg)" }}>
+        style={{"backgroundImage": "url(/assets/img/bg-cta.jpg)"}}>
         <div className="container relative z-30">
           <h3
             className="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
@@ -875,9 +901,6 @@ export default function Home({ blogs, profile }) {
       </div>
     </div><div className="bg-primary">
           <div className="container flex flex-col justify-between py-6 sm:flex-row">
-            <p className="text-center font-body text-white md:text-left">
-              © Copyright 2022. All right reserved, ATOM.
-            </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
               <a href="/">
                 <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
@@ -897,7 +920,7 @@ export default function Home({ blogs, profile }) {
             </div>
           </div>
         </div></></>
-
+     
     // <div className="home mx-8">
     //   <h1>{blogs[0].title}</h1>
     //   <div className="mx-8">
@@ -905,7 +928,7 @@ export default function Home({ blogs, profile }) {
     //   <PortableText
     //   // Pass in block content straight from Sanity.io
     //   content={blogs[0].content}
-    //   projectId = "iytovi01"
+    //   projectId = "i6d1pi85"
     // dataset = "production"
     //   // Optionally override marks, decorators, blocks, etc. in a flat
     //   // structure without doing any gymnastics
@@ -923,7 +946,7 @@ export default function Home({ blogs, profile }) {
 
 export async function getServerSideProps(context) {
   const client = createClient({
-    projectId: 'i6d1pi85',
+    projectId: "i6d1pi85",
     dataset: "production",
     useCdn: false
   });
