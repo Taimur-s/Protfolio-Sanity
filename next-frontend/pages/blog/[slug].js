@@ -78,12 +78,12 @@ const Post = ({ blog, profile }) => {
             </h1>
             <div class="flex items-center pt-5 md:pt-10">
               <div>
-                <img src="/assets/img/blog-author.jpg"
+                <img src="/assets/img/blog-author"
                   class="h-20 w-20 rounded-full border-2 border-grey-70 shadow"
                   alt="author image" />
               </div>
               <div class="pl-5">
-                <span class="block font-body text-xl font-bold text-grey-10">By Christy Smith</span>
+                <span class="block font-body text-xl font-bold text-grey-10">By Taimur</span>
                 <span class="block pt-1 font-body text-xl font-bold text-grey-30">February 27,
                   2022</span>
               </div>
