@@ -9,7 +9,7 @@ import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link'
 import NavBar from '../components/NavBar';
 
-export default function Home({ blogs, profile}) {
+export default function Home({ blogs, profile }) {
   const client = createClient({
     projectId: "i6d1pi85",
     dataset: "production",
@@ -24,8 +24,8 @@ export default function Home({ blogs, profile}) {
   //   twitterLink: "https://twitter.com/codewithtaimur",
   //   instagramLink: "https://instagram.com/codewithtaimur",
   // }
-  
-  
+
+
   return (
     <><>
       <Script src="/assets/js/main.js"></Script>
@@ -100,7 +100,7 @@ export default function Home({ blogs, profile}) {
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 
-      </Head> 
+      </Head>
       <NavBar profile={profile} />
       {/* <div className="w-full z-50 top-0 py-3 sm:py-5  absolute ">
         <div className="container flex items-center justify-between">
@@ -186,7 +186,7 @@ export default function Home({ blogs, profile}) {
         </div>
       </div> */}
       <div
-        className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" /> 
+        className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" />
       <div className="hidden absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
         <button className="absolute top-0 right-0 mt-4 mr-4">
           <img src="/assets/img/icon-close.svg" className="h-10 w-auto" alt="" />
@@ -292,9 +292,9 @@ export default function Home({ blogs, profile}) {
                   </a>
                 </div>
               </div>
-                <Link href={'/blogs'}><div className="buttons text-center md:text-left">
-                  <button className='bg-purple-600 text-white border-2 px-4 py-1 my-4 rounded-2xl'>All Blogs</button>
-                </div></Link>
+              <Link href={'/blogs'}><div className="buttons text-center md:text-left">
+                <button className='bg-purple-600 text-white border-2 px-4 py-1 my-4 rounded-2xl'>All Blogs</button>
+              </div></Link>
             </div>
           </div>
         </div>
@@ -307,16 +307,16 @@ export default function Home({ blogs, profile}) {
               Who am I?
             </h2>
             <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-              I'm Christy Smith, a Web Designer & Photographer
+              I'm Taimur, a Web Developer & Graphic Designer
             </h4>
             <p className="pt-6 font-body leading-relaxed text-grey-20">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              As a highly experienced freelancer, I bring a wealth of expertise in full-stack web development,
+              graphic design, business development, digital marketing and personal branding.
+              My strong background in media and communication has honed my ability to effectively communicate and collaborate with clients,
+              ensuring successful project delivery. I am dedicated to producing high-quality work that meets and exceeds clients' expectations,
+              and I am confident in my ability to bring value to your organization.
+              Whether you are seeking a web developer to bring your vision to life, a graphic designer to create visually stunning materials,
+              or an expert in digital marketing and personal branding, I am eager to put my skills to work for you.
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
               <div className="flex items-center justify-center sm:justify-start">
@@ -340,7 +340,7 @@ export default function Home({ blogs, profile}) {
                 <a href="/" className="pl-4">
                   <i className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"></i>
                 </a>
-                <a href="/" className="pl-4">
+                <a href="https://www.linkedin.com/in/taimursh/" className="pl-4">
                   <i className="bx bxl-instagram text-2xl text-primary hover:text-yellow"></i>
                 </a>
               </div>
@@ -355,7 +355,7 @@ export default function Home({ blogs, profile}) {
                 <h3 className="font-body text-3xl font-bold text-primary">85%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{"width": "85%"}}></div>
+                <div className="h-3 rounded-full bg-primary" style={{ "width": "85%" }}></div>
               </div>
             </div>
             <div className="pt-6">
@@ -375,7 +375,7 @@ export default function Home({ blogs, profile}) {
                 <h3 className="font-body text-3xl font-bold text-primary">98%</h3>
               </div>
               <div className="mt-2 h-3 w-full rounded-full bg-lila">
-                <div className="h-3 rounded-full bg-primary" style={{"width": "98%"}}></div>
+                <div className="h-3 rounded-full bg-primary" style={{ "width": "98%" }}></div>
               </div>
             </div>
             <div className="pt-6">
@@ -679,7 +679,7 @@ export default function Home({ blogs, profile}) {
       </div>
 
       <div className="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
-        style={{"backgroundImage": "url(/assets/img/experience-figure.png)"}} id="statistics">
+        style={{ "backgroundImage": "url(/assets/img/experience-figure.png)" }} id="statistics">
         <div className="container">
           <div className="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
             <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
@@ -756,22 +756,22 @@ export default function Home({ blogs, profile}) {
           </h4>
           <div className="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
 
-            {blogs.map((item) => { 
+            {blogs.map((item) => {
               return <Link key={item.slug.current} href={"/blog/" + item.slug.current} className="shadow">
-              <div><div style={{"backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})`}}
-                className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                <span
-                  className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                <span
-                  className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base cursor-pointer">Read
-                  More</span>
-              </div>
-              <div className="bg-white py-6 px-5 xl:py-8">
-                <span className="block font-body text-lg font-semibold text-black"> {item.title}</span>
-                <span className="block pt-2 font-body text-grey-20">{item.metadesc}</span>
-              </div></div>
-            </Link>
-             })}
+                <div><div style={{ "backgroundImage": `url(${builder.image(item.blogimage).width(200).url() || '/assets/img/post-01.png'})` }}
+                  className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                  <span
+                    className="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                  <span
+                    className="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base cursor-pointer">Read
+                    More</span>
+                </div>
+                  <div className="bg-white py-6 px-5 xl:py-8">
+                    <span className="block font-body text-lg font-semibold text-black"> {item.title}</span>
+                    <span className="block pt-2 font-body text-grey-20">{item.metadesc}</span>
+                  </div></div>
+              </Link>
+            })}
             {/* <a href="/post" className="shadow">
               <div style={{"backgroundImage": "url(/assets/img/post-02.png)"}}
                 className="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
@@ -848,7 +848,7 @@ export default function Home({ blogs, profile}) {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              (+881) 111 222 333
+              (+92) 331 401 0886
             </p>
           </div>
           <div
@@ -860,7 +860,7 @@ export default function Home({ blogs, profile}) {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              name@mydomain.com
+              tamur.hashmi@gmail.com
             </p>
           </div>
           <div
@@ -872,17 +872,17 @@ export default function Home({ blogs, profile}) {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              123 New York D Block 1100, 2011 USA
+              Gujrat, Pakistan
             </p>
           </div>
         </div>
       </div>
 
       <div className="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-        style={{"backgroundImage": "url(/assets/img/map.png)"}}></div>
+        style={{ "backgroundImage": "url(/assets/img/map.png)" }}></div>
 
       <div className="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
-        style={{"backgroundImage": "url(/assets/img/bg-cta.jpg)"}}>
+        style={{ "backgroundImage": "url(/assets/img/bg-cta.jpg)" }}>
         <div className="container relative z-30">
           <h3
             className="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
@@ -920,7 +920,7 @@ export default function Home({ blogs, profile}) {
             </div>
           </div>
         </div></></>
-     
+
     // <div className="home mx-8">
     //   <h1>{blogs[0].title}</h1>
     //   <div className="mx-8">
