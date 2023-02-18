@@ -279,7 +279,7 @@ export default function Home({ blogs, profile }) {
                     <i className="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
                   </a>
                   <a href="https://wa.me/message/6UBWHEFI5IS7I1" className="pl-4">
-                    <i className="bx bxl-whtasapp text-2xl text-white hover:text-yellow"></i>
+                    <i className="bx bxl-whatsapp text-2xl text-white hover:text-yellow"></i>
                   </a>
                 </div>
               </div>
