@@ -17,11 +17,11 @@ export default function Home({ blogs, profile }) {
   });
   const builder = imageUrlBuilder(client)
    //const profile = {
-     title: "WorkWithTaimur",
-     name: "Taimur",
-     fbLink: "https://www.facebook.com/tamur.hashmi",
-     twitterLink: "https://twitter.com/HashmiTamur",
-     instagramLink: "https://www.instagram.com/t.sh1820/",
+   //  title: "WorkWithTaimur",
+    // name: "Taimur",
+     //fbLink: "https://www.facebook.com/tamur.hashmi",
+     //twitterLink: "https://twitter.com/HashmiTamur",
+     //instagramLink: "https://www.instagram.com/t.sh1820/",
    //}
 
 
