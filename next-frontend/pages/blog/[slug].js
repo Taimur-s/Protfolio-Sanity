@@ -120,7 +120,7 @@ const Post = ({ blog, profile, author }) => {
           <div
             class="flex flex-col items-center border-t border-lila py-12 pt-12 md:flex-row md:items-start xl:pb-20">
             <div class="w-3/4 sm:w-2/5 lg:w-1/4 xl:w-1/5">
-              <img src="/assets/img/blog-author.jpg" class="rounded-full shadow" alt="author image" />
+              <img src="/assets/img/blog-author.png" class="rounded-full shadow" alt="author image" />
             </div>
             <div class="ml-0 text-center md:ml-10 md:w-5/6 md:text-left">
               <h3 class="pt-10 font-body text-2xl font-bold text-secondary md:pt-0">
