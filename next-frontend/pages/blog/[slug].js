@@ -202,7 +202,7 @@ export const getServerSideProps = async (context) => {
   const profile = await client.fetch(profileQuery);
   return {
     props: {
-      blog, profile , author
+      blog, profile
     }
   }
 }
