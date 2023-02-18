@@ -4,7 +4,7 @@ import { createClient } from "next-sanity";
 import PortableText from "react-portable-text"
 import NavBar from '../../components/NavBar'
 
-const Post = ({ blog, profile, author }) => {
+const Post = ({ blog, profile}) => {
   const router = useRouter()
 
   return <><>
