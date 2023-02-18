@@ -16,14 +16,13 @@ export default function Home({ blogs, profile }) {
     useCdn: false
   });
   const builder = imageUrlBuilder(client)
-  // const profile = {
-  //   title: "WorkWithtaimur",
-  //   name: "taimur",
-  //   image: "https://insanebiography.com/wp-content/uploads/codewithtaimur_108099807_133124151765153_6863548870509034899_n-min-edited.jpg",
-  //   fbLink: "https://facebook.com/codewithtaimur",
-  //   twitterLink: "https://twitter.com/codewithtaimur",
-  //   instagramLink: "https://instagram.com/codewithtaimur",
-  // }
+   const profile = {
+     title: "WorkWithTaimur",
+     name: "Taimur",
+     fbLink: "https://www.facebook.com/tamur.hashmi",
+     twitterLink: "https://twitter.com/HashmiTamur",
+     instagramLink: "https://www.instagram.com/t.sh1820/",
+   }
 
 
   return (
@@ -314,8 +313,7 @@ export default function Home({ blogs, profile }) {
               graphic design, business development, digital marketing and personal branding.
               My strong background in media and communication has honed my ability to effectively communicate and collaborate with clients,
               ensuring successful project delivery. I am dedicated to producing high-quality work that meets and exceeds clients' expectations,
-              and I am confident in my ability to bring value to your organization.
-              Whether you are seeking a web developer to bring your vision to life, a graphic designer to create visually stunning materials,
+              and I am confident in my ability to bring value to your organization. Whether you are seeking a web developer to bring your vision to life, a graphic designer to create visually stunning materials,
               or an expert in digital marketing and personal branding, I am eager to put my skills to work for you.
             </p>
             <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
@@ -872,7 +870,7 @@ export default function Home({ blogs, profile }) {
               </p>
             </div>
             <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              Gujrat, Pakistan
+              Pakistan
             </p>
           </div>
         </div>
@@ -901,6 +899,9 @@ export default function Home({ blogs, profile }) {
       </div>
     </div><div className="bg-primary">
           <div className="container flex flex-col justify-between py-6 sm:flex-row">
+            <p className="text-center font-body text-white md:text-left">
+              © Copyright 2022. All right reserved, ATOM.
+            </p>
             <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
               <a href="/">
                 <i className="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
