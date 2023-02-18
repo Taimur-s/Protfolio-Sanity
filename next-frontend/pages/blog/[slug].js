@@ -124,7 +124,7 @@ const Post = ({ blog, profile }) => {
             </div>
             <div class="ml-0 text-center md:ml-10 md:w-5/6 md:text-left">
               <h3 class="pt-10 font-body text-2xl font-bold text-secondary md:pt-0">
-                Christy Smith
+                Taimur
               </h3>
               <p
                 class="pt-5 font-body text-lg leading-8 text-secondary sm:leading-9 md:text-xl md:leading-9 lg:leading-9 xl:leading-9">
@@ -162,7 +162,7 @@ const Post = ({ blog, profile }) => {
     <div class="bg-primary">
       <div class="container flex flex-col justify-between py-6 sm:flex-row">
         <p class="text-center font-body text-white md:text-left">
-          © Copyright 2022. All right reserved, ATOM.
+          © Copyright 2022. All right reserved.
         </p>
         <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
           <a href="/">
