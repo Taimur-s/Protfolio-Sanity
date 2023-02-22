@@ -92,7 +92,7 @@ export default function Home({ blogs, profile }) {
 
 
       </Head>
-      <NavBar profile={profile} />
+      <NavBar profile/>
       {/* <div className="w-full z-50 top-0 py-3 sm:py-5  absolute ">
         <div className="container flex items-center justify-between">
           <div>
